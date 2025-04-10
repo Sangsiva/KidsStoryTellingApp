@@ -1,0 +1,9 @@
+list_dir /Users/sivakumarsaminathan/Desktop/GIT_PROJECTS_URGENT/storytellingapp/ai-storyland-web
+
+rm -rf node_modules  # Remove existing node_modules directory for a clean install
+npm install          # Install all dependencies (including react-scripts from package.json)
+npm start            # Start the development server
+
+To run in different port:
+PORT=3006 npm start
+
